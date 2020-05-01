@@ -15,7 +15,7 @@ def hello_world():
     return render_template('pages/index.html', title="The Lazy Padwan and his lost Son")
 @APP.route('/<name>')
 def hello_user(name):
-    return render_template('pages/name.html', title="The Lazy Padwan", submittedName=name)
+    return render_template('pages/name.html', title="The Lazy Padwan and his lost Son", submittedName=name)
     
 
 if __name__ == '__main__':
