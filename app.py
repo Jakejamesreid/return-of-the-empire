@@ -12,7 +12,7 @@ APP = Flask(__name__)
 
 @APP.route('/')
 def hello_world():
-    return render_template('pages/index.html', title="The Lazy Padwan")
+    return render_template('pages/index.html', title="The Lazy Padwan and his lost Son")
 
 if __name__ == '__main__':
     APP.run(host=os.environ.get('HOSTNAME'),
