@@ -12,7 +12,7 @@ APP = Flask(__name__)
 
 @APP.route('/')
 def hello_world():
-    return render_template('pages/index.html', title="The Lazy Padwan and his lost Son")
+    return render_template('pages/index.html', title="The Lazy Padwan and his lost Son, 70 camels, 50 lambs, and young Jesus")
 @APP.route('/<name>')
 def hello_user(name):
     return render_template('pages/name.html', title="The Lazy Padwan and his lost Son", submittedName=name)
